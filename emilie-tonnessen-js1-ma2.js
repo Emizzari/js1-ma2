@@ -3,7 +3,11 @@
    Create a function expression by assigning an anonmyous function to a 
    variable called myFunctionExpression. The function should console log 
    your name. */
+    function myName () {
+        console.log(Emilie);
+    }
 
+    var myFunctionExpression = myName;
 
 
 // QUESTION 2
@@ -115,4 +119,4 @@
 
    <div class="container">Placeholder text</div> */
 
-   
+
