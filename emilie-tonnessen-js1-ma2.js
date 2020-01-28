@@ -56,7 +56,13 @@
    - The callback function should add a class called hover to the button.
 
    <button class="btn" data-animal="dog">Hover over me</button> */
+    const selectButtonByTag = document.querySelector("button");
 
+    function addClassWhenMouseover() {
+        selectButtonByTag.classList.add("hover");
+    }
+
+    selectButtonByTag.addEventListener("mouseover", addClassWhenMouseover);
 
 
 // QUESTION 5
