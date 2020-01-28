@@ -27,7 +27,7 @@
 
    <button class="btn" data-animal="dog">Hover over me</button> */
 
-    const varOne = document.querySelector("button");
+    varOne = document.querySelector("button[data-animal=dog]");
 
     function functionOne() {
         varOne.classList.remove("hover");
