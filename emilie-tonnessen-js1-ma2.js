@@ -28,7 +28,7 @@
         console.log("I was clicked")
     };
 
-    selectTheButtonClass.addEventListener("click", buttonClick);
+    selectButtonClass.addEventListener("click", buttonClick);
 
 
 
