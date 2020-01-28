@@ -73,6 +73,14 @@
 
    <button class="btn" data-animal="dog">Hover over me</button> */
 
+    const varOne = document.querySelector("button");
+
+    function functionOne() {
+        varOne.classList.remove("hover");
+    }
+
+    varOne.addEventListener("mouseout", functionOne);
+
 
 
 // QUESTION 6
