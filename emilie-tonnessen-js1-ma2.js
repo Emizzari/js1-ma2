@@ -39,8 +39,14 @@
    - The callback function passed to the event listener should 
      log the value of the key that was pressed.
 
-   <input class="input" id="firstName"></div> /*
+   <input class="input" id="firstName"></div> */
+    const selectInputId = document.querySelector("#firstName");
 
+    function valueOfPushedKey(event) {
+        console.log(event.target.value);
+    }
+
+    selectInputId.addEventListener("keydown", valueOfPushedKey);
 
 
 // QUESTION 4
