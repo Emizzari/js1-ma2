@@ -22,7 +22,7 @@
    name.
 
    <button class="btn">Click me</button> */
-    const selectTheButtonClass = document.querySelector(".btn");
+    const selectButtonClass = document.querySelector(".btn");
 
     const buttonClick = function () {
         console.log("I was clicked")
