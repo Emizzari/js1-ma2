@@ -43,7 +43,7 @@
     const selectInputId = document.querySelector("#firstName");
 
     function valueOfPushedKey(event) {
-        console.log(event.target.value);
+        console.log(event.key);
     }
 
     selectInputId.addEventListener("keydown", valueOfPushedKey);
