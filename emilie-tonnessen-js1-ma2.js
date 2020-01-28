@@ -12,15 +12,23 @@
 
 // QUESTION 2
 /* Refer: lesson 2
-   Select the button in the HTML below by its class. Add a click event 
-   listener. The callback function passed to the event listener should 
-   log the sentence I was clicked.
+   Select the "button" in the HTML below by its class. 
+   Add a click event listener. 
+   The callback function passed to the event listener should 
+   log the sentence; "I was clicked".
 
    You can pass the function in directly, declare it and pass it in by 
    its name or assign it to a variable and pass it in by the variable 
    name.
 
    <button class="btn">Click me</button> */
+    const selectTheButtonClass = document.querySelector(".btn");
+
+    const buttonClick = function () {
+        console.log("I was clicked")
+    };
+
+    selectTheButtonClass.addEventListener("click", buttonClick);
 
 
 
