@@ -96,6 +96,15 @@
        <li data-animal="elephant">Animal 3</li>
    </ul> */
 
+    const allListTags = document.querySelectorAll("li");
+
+    for (let i = 0; i < allListTags.length; i++) {
+        allListTags[i].addEventListener("mouseover", logDiffrentAnimals);
+    }
+
+    function logDiffrentAnimals(event) {
+        console.log(event.target.dataset.animal);
+    }
 
 
 // QUESTION 7
