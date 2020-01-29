@@ -155,6 +155,11 @@
        console.log(sheep[i]);
    } */
 
+    const sheep = ["Malcolm", "Anders", "Marie"];
+
+    sheep.forEach(function (sheeps) {
+        console.log(sheeps);
+    });
 
 
 // QUESTION 9
