@@ -147,7 +147,7 @@
 
 // QUESTION 8
 /* Refer: lesson 4
-   Convert the for loop code below to a forEach loop.
+   - Convert the for loop code below to a forEach loop:
 
    const sheep = ["Malcolm", "Anders", "Marie"];
 
@@ -159,16 +159,17 @@
 
 // QUESTION 9
 /* Refer: lesson 4
-   Create a timer that logs the word hello every half a second. It must 
-   stop after its logged the word 6 times. */
+   - Create a timer that logs the word hello every half a second. 
+   - It must stop after its logged the word 6 times. */
 
 
 
 // QUESTION 10
 /* Refer: lesson 4
-   Select the div from the HTML below. Write code that updates the div's 
-   text to say Text updated after waiting 2 seconds. You can use either 
-   innerText or innerHTML to update the text.
+   - Select the div from the HTML below. 
+   - Write code that updates the div's text to say Text updated after 
+     waiting 2 seconds. You can use either innerText or innerHTML to update 
+     the text.
 
    <div class="container">Placeholder text</div> */
 
