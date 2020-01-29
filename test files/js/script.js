@@ -1,39 +1,12 @@
-// QUESTION 7
-/* Refer: lesson 3
-   - Convert the if-else-if statement below to a switch statement. 
-   - Use the code inside the else block in the default block in the switch.
+// QUESTION 10
+/* Refer: lesson 4
+   - Select the div from the HTML below.
+   - Write code that updates the div's text to say Text updated after
+     waiting 2 seconds. 
+   - You can use either innerText or innerHTML to update
+     the text.
 
-   const animal = "cow";
+   <div class="container">Placeholder text</div> */
 
-   if(animal === "cat") {
-       console.log("Meow");
-   }
-   else if(animal === "cow") {
-       console.log("Moo");
-   }
-   else if(animal === "bird") {
-       console.log("Tweet");
-   }
-   else {
-       console.log("Harrumph");
-   } */
+   const selectContainer = document.querySelector(".container");
 
-
-const animal = "mm";
-
-switch (animal) {
-    case "cat":
-        console.log("Meow");
-        break;
-
-    case "cow":
-        console.log("Moo");
-        break;
-
-    case "bird":
-        console.log("Tweet");
-        break;
-
-    default:
-        console.log("Harrumph");
-}
