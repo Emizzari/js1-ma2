@@ -1,23 +1,16 @@
 
+// QUESTION 3
+/* Refer: lesson 2
+   - Select the input in the HTML below by its id.
+   - Add a keydown event listener.
+   - The callback function passed to the event listener should
+     log the value of the key that was pressed.
 
+   <input class="input" id="firstName"></div> */
 
+const input = document.querySelector("#firstName");
 
-
-
-// QUESTION 10
-/* Refer: lesson 4
-   - Select the div from the HTML below.
-   - Write code that updates the div's text to say "Text updated" after
-     waiting 2 seconds. 
-   - You can use either innerText or innerHTML to update
-     the text.
-
-   <div class="container">Placeholder text</div> */
-
-const container = document.querySelector(".container");
-
-function updateContainer() {
-    container.innerHTML = "Text updated";
+function logKey() {
+    console.log(event.key);
 }
-
-setTimeout(updateContainer, 2000);
+input.addEventListener("keydown", logKey);
