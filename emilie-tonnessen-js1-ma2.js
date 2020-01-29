@@ -86,11 +86,11 @@
 
 // QUESTION 6
 /* Refer: lesson 3
-   Select all the li tags from the HTML below. Using a loop, add a 
-   mouseover event listener to each tag.
+   - Select all the li tags from the HTML below. 
+   - Using a loop, add a mouseover event listener to each tag.
 
-   The callback function should log the value of the data attribute on 
-   each element when the cursor moves over it.
+   - The callback function should log the value of the data attribute on 
+     each element when the cursor moves over it.
 
    <ul>
        <li data-animal="goose">Animal 1</li>
@@ -102,8 +102,8 @@
 
 // QUESTION 7
 /* Refer: lesson 3
-   Convert the if-else-if statement below to a switch statement. Use the 
-   code inside the else block in the default block in the switch.
+   - Convert the if-else-if statement below to a switch statement. 
+   - Use the code inside the else block in the default block in the switch.
 
    const animal = "cow";
 
