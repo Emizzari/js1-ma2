@@ -73,13 +73,13 @@
 
    <button class="btn" data-animal="dog">Hover over me</button> */
 
-    targetDataAttributeAnimal = document.querySelector("button");
+    targetDataAttribute = document.querySelector("button[data-animal]");
 
     function removeHoverClass() {
-        targetDataAttributeAnimal.classList.remove("hover");
+        targetDataAttribute.classList.remove("hover");
     }
 
-    targetDataAttributeAnimal.addEventListener("mouseout", removeHoverClass);
+    targetDataAttribute.addEventListener("mouseout", removeHoverClass);
 
 
 
