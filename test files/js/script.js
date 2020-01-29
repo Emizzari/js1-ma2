@@ -1,36 +1,39 @@
-// This is a test script for MA2
+// QUESTION 7
+/* Refer: lesson 3
+   - Convert the if-else-if statement below to a switch statement. 
+   - Use the code inside the else block in the default block in the switch.
+
+   const animal = "cow";
+
+   if(animal === "cat") {
+       console.log("Meow");
+   }
+   else if(animal === "cow") {
+       console.log("Moo");
+   }
+   else if(animal === "bird") {
+       console.log("Tweet");
+   }
+   else {
+       console.log("Harrumph");
+   } */
 
 
+const animal = "mm";
 
+switch (animal) {
+    case "cat":
+        console.log("Meow");
+        break;
 
-// QUESTION 4
-/* Refer: lesson 2 / 3
-   - Select the button in the HTML below by its tag. 
-   - Add a mouseover event listener. 
-   - The callback function should add a class called "hover" to the button.
+    case "cow":
+        console.log("Moo");
+        break;
 
-   <button class="btn" data-animal="dog">Hover over me</button> */
+    case "bird":
+        console.log("Tweet");
+        break;
 
-    const selectButtonByTag = document.querySelector("button");
-
-    function addClassWhenMouseover() {
-        selectButtonByTag.classList.add("hover");
-    }
-
-    selectButtonByTag.addEventListener("mouseover", addClassWhenMouseover);
-
-// QUESTION 5
-/* Refer: lesson 2 / 3
-   - Select the button in the HTML below by its data attribute and add a
-     mouseout event listener to it.
-   - The callback function should remove the class called "hover" from the button.
-
-   <button class="btn" data-animal="dog">Hover over me</button> */
-
-    targetDataAttribute = document.querySelector("button[data-animal]");
-
-    function removeHoverClass() {
-        targetDataAttribute.classList.remove("hover");
-    }
-
-    targetDataAttribute.addEventListener("mouseout", removeHoverClass);
+    default:
+        console.log("Harrumph");
+}
