@@ -166,7 +166,19 @@
 /* Refer: lesson 4
    - Create a timer that logs the word hello every half a second. 
    - It must stop after its logged the word 6 times. */
+   
+    function logWord() {
+        console.log("Hello");
+        if (counter === 5) {
+            clearInterval(intervalId);
+        }
 
+        counter++;
+    }
+
+    let counter = 0;
+
+    const intervalId = setInterval(logWord, 500);
 
 
 // QUESTION 10
