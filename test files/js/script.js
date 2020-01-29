@@ -8,9 +8,12 @@
 
    <input class="input" id="firstName"></div> */
 
-const input = document.querySelector("#firstName");
+const sheep = ["Malcolm", "Anders", "Marie"];
 
-function logKey() {
-    console.log(event.key);
+
+
+function LogSheep(item) {
+  console.log(item);
 }
-input.addEventListener("keydown", logKey);
+
+sheep.forEach(LogSheep);
