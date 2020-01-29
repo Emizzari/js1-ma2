@@ -3,6 +3,7 @@
    Create a function expression by assigning an anonmyous function to a 
    variable called myFunctionExpression. The function should console log 
    your name. */
+
     const myFunctionExpression = function () {
         console.log("Emilie H. K. Tønnessen");
     }
@@ -22,6 +23,7 @@
    name.
 
    <button class="btn">Click me</button> */
+
     const selectButtonClass = document.querySelector(".btn");
 
     const buttonClick = function () {
@@ -29,7 +31,6 @@
     };
 
     selectButtonClass.addEventListener("click", buttonClick);
-
 
 
 // QUESTION 3
@@ -40,6 +41,7 @@
      log the value of the key that was pressed.
 
    <input class="input" id="firstName"></div> */
+
     const selectInputId = document.querySelector("#firstName");
 
     function valueOfPushedKey(event) {
@@ -56,6 +58,7 @@
    - The callback function should add a class called hover to the button.
 
    <button class="btn" data-animal="dog">Hover over me</button> */
+
     const selectButtonByTag = document.querySelector("button");
 
     function addClassWhenMouseover() {
@@ -197,3 +200,5 @@
     }
 
     setTimeout(updateContainer, 2000);
+
+    
