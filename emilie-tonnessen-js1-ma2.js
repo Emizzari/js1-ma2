@@ -112,20 +112,20 @@
    - Convert the if-else-if statement below to a switch statement. 
    - Use the code inside the else block in the default block in the switch.
 
-   const animal = "cow";
+    const animal = "cow";
 
-   if(animal === "cat") {
-       console.log("Meow");
-   }
-   else if(animal === "cow") {
-       console.log("Moo");
-   }
-   else if(animal === "bird") {
-       console.log("Tweet");
-   }
-   else {
-       console.log("Harrumph");
-   } */
+    if(animal === "cat") {
+        console.log("Meow");
+    }
+    else if(animal === "cow") {
+        console.log("Moo");
+    }
+    else if(animal === "bird") {
+        console.log("Tweet");
+    }
+    else {
+        console.log("Harrumph");
+    } */
 
    switch(animal){
        case "cat":
