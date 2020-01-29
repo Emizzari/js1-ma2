@@ -120,6 +120,22 @@
        console.log("Harrumph");
    } */
 
+   switch(animal){
+       case "cat":
+           console.log("Meow");
+           break;
+
+        case "cow":
+            console.log("Moo");
+            break;
+        
+        case "bird":
+            console.log("Tweet");
+            break;
+
+        default:
+           console.log("Harrumph");
+   }
 
 
 // QUESTION 8
