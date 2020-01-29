@@ -166,7 +166,7 @@
 /* Refer: lesson 4
    - Create a timer that logs the word hello every half a second. 
    - It must stop after its logged the word 6 times. */
-   
+
     function logWord() {
         console.log("Hello");
         if (counter === 5) {
@@ -190,4 +190,10 @@
 
    <div class="container">Placeholder text</div> */
 
+    const container = document.querySelector(".container");
 
+    function updateContainer() {
+        container.innerHTML = "Text updated";
+    }
+
+    setTimeout(updateContainer, 2000);
