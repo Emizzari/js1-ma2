@@ -160,11 +160,11 @@
 
     const sheep = ["Malcolm", "Anders", "Marie"];
 
-    function LogSheep(item) {
+    function logSheep(item) {
         console.log(item);
     }
 
-    sheep.forEach(LogSheep);
+    sheep.forEach(logSheep);
 
 
 // QUESTION 9
